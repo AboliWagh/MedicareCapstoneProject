@@ -106,7 +106,6 @@ public class ManageProductsPage {
 		UnitPrice.sendKeys(newunitpriceval);
 		test.log(LogStatus.PASS, "NewUnitPrice", "NewUnitPrice Entered Successfully");
 		Thread.sleep(1000);
-		
 		SaveButton.click();
 
 		// Manageprducts.click();

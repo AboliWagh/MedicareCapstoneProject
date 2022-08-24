@@ -5,15 +5,15 @@
     <parameter name="Param2" value="12345"/>
     <parameter name="Param1" value="kn@gmail.com"/>
     <classes>
-      <class name="testCases.LoginAndSignupTest">
+      <class name="testCases.AllTestCases">
         <methods>
           <include name="DataTearDown"/>
           <include name="DataSetUp"/>
-          <include name="AdminLoginTest"/>
           <include name="SetUp"/>
           <include name="TearDown"/>
+          <include name="SignUpUserTest"/>
         </methods>
-      </class> <!-- testCases.LoginAndSignupTest -->
+      </class> <!-- testCases.AllTestCases -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

@@ -60,7 +60,7 @@ public class BaseClass {
 
 		driver = new ChromeDriver();
 
-		driver.get("http://localhost:8080/medicare/");
+		driver.get("http://localhost:8082/medicare/");
 
 		driver.manage().window().maximize();
 

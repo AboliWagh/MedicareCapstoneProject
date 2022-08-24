@@ -57,7 +57,7 @@ public class AllTestCases extends BaseClass {
 			 login.LoginFunction("vk@gmail.com","admin");
 	
 	  ManageProductsPage productdetails = new ManageProductsPage();
-	  productdetails.Manageprodutfunction("New 771Panadol", "Rama Farma Co.",
+	  productdetails.Manageprodutfunction("New PanadolExtra", "Rama Farma Co.",
 	  "Effective Pain Relief","20.00", "C:\\Users\\aboli_xzqs16p\\Downloads\\Panadol.jfif");
 	 
 	  report.endTest(test); 
@@ -117,12 +117,12 @@ public class AllTestCases extends BaseClass {
 	 
 	 test = report.startTest("SignUpUserTest");
 	 
-	 SignUpPage firstname = new SignUpPage(); firstname.NewsupplierFunction("Ra52",
+	 SignUpPage firstname = new SignUpPage(); firstname.NewsupplierFunction("Ram452",
 	 "david", "R52@yahoo.com", "123456", "Daizy", "Daizy", "Upper Changi",
 	  "Punggol", "Tampines", "411041", "Tampines", "Singapore");
 	  Thread.sleep(1000);
 	  SignUpPage newlogin = new SignUpPage();
-	  newlogin.NewsupplierLoginFunction("R52@yahoo.com", "123456");
+	  newlogin.NewsupplierLoginFunction("Rsew52@yahoo.com", "123456");
 	 
 	 report.endTest(test); }
 	 
