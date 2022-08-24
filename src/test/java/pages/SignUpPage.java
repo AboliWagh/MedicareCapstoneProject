@@ -151,22 +151,12 @@ public class SignUpPage {
 
 		Thread.sleep(1000);
 		
-		SucessLogin.click();
-		test.log(LogStatus.PASS, "Click SucessLogin button ", "SucessLogin clicked successfully");
+		//SucessLogin.click();
+		//test.log(LogStatus.PASS, "Click SucessLogin button ", "SucessLogin clicked successfully");
 		
-		Thread.sleep(2000);
+		//Thread.sleep(2000);
 		
 	}
 
-	 public void NewsupplierLoginFunction(String emailval1,String PasswordVal1) throws InterruptedException {
-		 NewSupplierUsername.sendKeys(emailval1);
-			test.log(LogStatus.PASS, "Enter FirstName", "FirstName Entered successfully");
-
-			NewSupplierPassword.sendKeys(PasswordVal1);
-			test.log(LogStatus.PASS, "Enter Password", "password Entered successfully");
-			Thread.sleep(500);
-			Loginagain.click();
-			test.log(LogStatus.PASS, "Click Loginagain button ", "Loginagain clicked successfully");
-	 }
-
+	
 }

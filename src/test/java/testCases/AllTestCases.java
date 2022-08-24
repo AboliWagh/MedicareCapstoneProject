@@ -56,7 +56,7 @@ public class AllTestCases extends BaseClass {
 		login.LoginFunction("vk@gmail.com", "admin");
 
 		ManageProductsPage productdetails = new ManageProductsPage();
-		productdetails.Manageprodutfunction("New PanadolExtra", "Rama Farma Co.", "Effective Pain Relief", "20.00",
+		productdetails.Manageprodutfunction("Medicine", "New Co.", "cold Relief", "70.00",
 				"C:\\Users\\aboli_xzqs16p\\Downloads\\Panadol.jfif");
 
 		report.endTest(test);
@@ -77,7 +77,7 @@ public class AllTestCases extends BaseClass {
 	}
 	////////// TEST CASE 5 Add to cart Test //////////////////
 
-	/*@Test
+	@Test(enabled=false)
 	public void AddToCartTest() throws InterruptedException {
 		test = report.startTest("AddToCartTest");
 
@@ -91,7 +91,7 @@ public class AllTestCases extends BaseClass {
 
 		report.endTest(test);
 
-	}*/
+	}
 
 	//////////// TEST CASE 6 Login Fail Excel data Test
 	//////////// ///////////////////////////////////////
@@ -118,11 +118,9 @@ public class AllTestCases extends BaseClass {
 		test = report.startTest("SignUpUserTest");
 
 		SignUpPage firstname = new SignUpPage();
-		firstname.NewsupplierFunction("Rama452", "david", "R533@yahoo.com", "123456", "Daizy", "Daizy", "Upper Changi",
+		firstname.NewsupplierFunction("Raja", "david", "RRRWWW@yahoo.com", "123456", "Daizy", "Daizy", "Upper Changi",
 				"Punggol", "Tampines", "411041", "Tampines", "Singapore");
-		Thread.sleep(1000);
-		//SignUpPage newlogin = new SignUpPage();
-		//newlogin.NewsupplierLoginFunction("Ram32@yahoo.com", "123456");
+		
 
 		report.endTest(test);
 	}

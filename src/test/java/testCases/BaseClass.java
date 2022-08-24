@@ -71,7 +71,7 @@ public class BaseClass {
 //////////Function 2 TearDown/////////
 	@AfterMethod
 	public void TearDown() throws InterruptedException {
-		Thread.sleep(7000);
+		Thread.sleep(2000);
 		driver.quit();
 	}
 
