@@ -41,13 +41,10 @@ public class ShoppingPage {
 	@FindBy(xpath = "//a[@href='/medicare/cart/add/5/product']")
 	WebElement AmoxicillinView;
 
-	
-	//@FindBy(xpath = "//a[@href='/medicare/cart/validate']") //a[@href='/medicare/cart/validate']
-	//@FindBy(className = "btn btn-success btn-block")
-	//WebElement Checkout;
+	@FindBy(xpath = "//a[@href='/medicare/cart/validate']") // a[@href='/medicare/cart/validate']
 
-	@FindBy(id = "dropdownMenu1")
-	WebElement dropdown;
+	WebElement Checkout;
+
 	@FindBy(xpath = "//body/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/a[1]")
 	WebElement Select;
 
@@ -79,13 +76,12 @@ public class ShoppingPage {
 		ParacetamolView.click();
 		test.log(LogStatus.PASS, "Click on ParacetamolView", "ParacetamolView clicked successfully");
 
-
 		Thread.sleep(500);
 		Addtocart.click();
 		test.log(LogStatus.PASS, "Click on Addtocart", "Addtocart clicked successfully");
 
 		Thread.sleep(500);
-		
+
 		ContinueShopping.click();
 		test.log(LogStatus.PASS, "Click on ContinueShopping", "ContinueShopping clicked successfully");
 
@@ -95,13 +91,11 @@ public class ShoppingPage {
 		Thread.sleep(500);
 		Addtocart.click();
 		test.log(LogStatus.PASS, "Click on Addtocart", "Addtocart clicked successfully");
-		
-		Thread.sleep(1000);
-		//Checkout.click();
-		//test.log(LogStatus.PASS, "Click on Checkout", "Checkout clicked successfully");
 
-		dropdown.click();
-		
+		Thread.sleep(1000);
+		Checkout.click();
+		test.log(LogStatus.PASS, "Click on Checkout", "Checkout clicked successfully");
+
 		Select.click();
 		test.log(LogStatus.PASS, "Click on Selectaddress", "Selectaddress clicked successfully");
 

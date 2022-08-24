@@ -1,91 +1,43 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="1" ignored="0" total="6" passed="5">
+<testng-results skipped="0" failed="1" ignored="6" total="7" passed="0">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="112575" started-at="2022-08-24T18:00:15 SGT" finished-at="2022-08-24T18:02:07 SGT">
+  <suite name="Default suite" duration-ms="28691" started-at="2022-08-24T18:57:39 SGT" finished-at="2022-08-24T18:58:07 SGT">
     <groups>
     </groups>
-    <test name="Test" duration-ms="112575" started-at="2022-08-24T18:00:15 SGT" finished-at="2022-08-24T18:02:07 SGT">
+    <test name="Default test" duration-ms="28691" started-at="2022-08-24T18:57:39 SGT" finished-at="2022-08-24T18:58:07 SGT">
       <class name="testCases.AllTestCases">
-        <test-method status="PASS" signature="DataSetUp()[pri:0, instance:testCases.AllTestCases@7a30d1e6]" name="DataSetUp" is-config="true" duration-ms="553" started-at="2022-08-24T18:00:15 SGT" finished-at="2022-08-24T18:00:15 SGT">
+        <test-method status="PASS" signature="DataSetUp()[pri:0, instance:testCases.AllTestCases@32eebfca]" name="DataSetUp" is-config="true" duration-ms="1096" started-at="2022-08-24T18:57:39 SGT" finished-at="2022-08-24T18:57:40 SGT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- DataSetUp -->
-        <test-method status="PASS" signature="SetUp()[pri:0, instance:testCases.AllTestCases@7a30d1e6]" name="SetUp" is-config="true" duration-ms="9128" started-at="2022-08-24T18:00:15 SGT" finished-at="2022-08-24T18:00:24 SGT">
+        <test-method status="PASS" signature="SetUp()[pri:0, instance:testCases.AllTestCases@32eebfca]" name="SetUp" is-config="true" duration-ms="4371" started-at="2022-08-24T18:57:40 SGT" finished-at="2022-08-24T18:57:44 SGT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SetUp -->
-        <test-method status="PASS" signature="AddNewProductTest()[pri:0, instance:testCases.AllTestCases@7a30d1e6]" name="AddNewProductTest" duration-ms="7224" started-at="2022-08-24T18:00:24 SGT" finished-at="2022-08-24T18:00:32 SGT">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- AddNewProductTest -->
-        <test-method status="PASS" signature="TearDown()[pri:0, instance:testCases.AllTestCases@7a30d1e6]" name="TearDown" is-config="true" duration-ms="8896" started-at="2022-08-24T18:00:32 SGT" finished-at="2022-08-24T18:00:41 SGT">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TearDown -->
-        <test-method status="PASS" signature="SetUp()[pri:0, instance:testCases.AllTestCases@7a30d1e6]" name="SetUp" is-config="true" duration-ms="3243" started-at="2022-08-24T18:00:41 SGT" finished-at="2022-08-24T18:00:44 SGT">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- SetUp -->
-        <test-method status="PASS" signature="AdminLoginTest()[pri:0, instance:testCases.AllTestCases@7a30d1e6]" name="AdminLoginTest" duration-ms="1964" started-at="2022-08-24T18:00:44 SGT" finished-at="2022-08-24T18:00:46 SGT">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- AdminLoginTest -->
-        <test-method status="PASS" signature="TearDown()[pri:0, instance:testCases.AllTestCases@7a30d1e6]" name="TearDown" is-config="true" duration-ms="8575" started-at="2022-08-24T18:00:46 SGT" finished-at="2022-08-24T18:00:54 SGT">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TearDown -->
-        <test-method status="PASS" signature="SetUp()[pri:0, instance:testCases.AllTestCases@7a30d1e6]" name="SetUp" is-config="true" duration-ms="4023" started-at="2022-08-24T18:00:54 SGT" finished-at="2022-08-24T18:00:58 SGT">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- SetUp -->
-        <test-method status="PASS" signature="EditProductTest()[pri:0, instance:testCases.AllTestCases@7a30d1e6]" name="EditProductTest" duration-ms="9257" started-at="2022-08-24T18:00:58 SGT" finished-at="2022-08-24T18:01:08 SGT">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- EditProductTest -->
-        <test-method status="PASS" signature="TearDown()[pri:0, instance:testCases.AllTestCases@7a30d1e6]" name="TearDown" is-config="true" duration-ms="8154" started-at="2022-08-24T18:01:08 SGT" finished-at="2022-08-24T18:01:16 SGT">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TearDown -->
-        <test-method status="PASS" signature="SetUp()[pri:0, instance:testCases.AllTestCases@7a30d1e6]" name="SetUp" is-config="true" duration-ms="3235" started-at="2022-08-24T18:01:16 SGT" finished-at="2022-08-24T18:01:19 SGT">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- SetUp -->
-        <test-method status="PASS" signature="ExcelDataTest()[pri:0, instance:testCases.AllTestCases@7a30d1e6]" name="ExcelDataTest" duration-ms="2194" started-at="2022-08-24T18:01:19 SGT" finished-at="2022-08-24T18:01:21 SGT">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- ExcelDataTest -->
-        <test-method status="PASS" signature="TearDown()[pri:0, instance:testCases.AllTestCases@7a30d1e6]" name="TearDown" is-config="true" duration-ms="8267" started-at="2022-08-24T18:01:21 SGT" finished-at="2022-08-24T18:01:29 SGT">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TearDown -->
-        <test-method status="PASS" signature="SetUp()[pri:0, instance:testCases.AllTestCases@7a30d1e6]" name="SetUp" is-config="true" duration-ms="3596" started-at="2022-08-24T18:01:29 SGT" finished-at="2022-08-24T18:01:33 SGT">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- SetUp -->
-        <test-method status="FAIL" signature="SignUpUserTest()[pri:0, instance:testCases.AllTestCases@7a30d1e6]" name="SignUpUserTest" duration-ms="13050" started-at="2022-08-24T18:01:33 SGT" finished-at="2022-08-24T18:01:46 SGT">
+        <test-method status="FAIL" signature="AddToCartTest()[pri:0, instance:testCases.AllTestCases@32eebfca]" name="AddToCartTest" duration-ms="14426" started-at="2022-08-24T18:57:44 SGT" finished-at="2022-08-24T18:57:59 SGT">
           <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
-              <![CDATA[no such element: Unable to locate element: {"method":"css selector","selector":"#addressLineOne"}
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//a[@href='/medicare/cart/add/1/product']"}
   (Session info: chrome=104.0.5112.102)
 For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'DESKTOP-OSG43F4', ip: '192.168.68.66', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 104.0.5112.102, chrome: {chromedriverVersion: 104.0.5112.79 (3cf3e8c8a07d..., userDataDir: C:\Users\ABOLI_~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:57293}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 27541fb723d379c4afb79fa852c17130
-*** Element info: {Using=id, value=addressLineOne}]]>
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 104.0.5112.102, chrome: {chromedriverVersion: 104.0.5112.79 (3cf3e8c8a07d..., userDataDir: C:\Users\ABOLI_~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:59133}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 7047dfb3053d38799a647d2a7ef9353b
+*** Element info: {Using=xpath, value=//a[@href='/medicare/cart/add/1/product']}]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"#addressLineOne"}
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//a[@href='/medicare/cart/add/1/product']"}
   (Session info: chrome=104.0.5112.102)
 For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'DESKTOP-OSG43F4', ip: '192.168.68.66', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 104.0.5112.102, chrome: {chromedriverVersion: 104.0.5112.79 (3cf3e8c8a07d..., userDataDir: C:\Users\ABOLI_~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:57293}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 27541fb723d379c4afb79fa852c17130
-*** Element info: {Using=id, value=addressLineOne}
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 104.0.5112.102, chrome: {chromedriverVersion: 104.0.5112.79 (3cf3e8c8a07d..., userDataDir: C:\Users\ABOLI_~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:59133}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 7047dfb3053d38799a647d2a7ef9353b
+*** Element info: {Using=xpath, value=//a[@href='/medicare/cart/add/1/product']}
 at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
 at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -97,14 +49,14 @@ at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.ja
 at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
 at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
 at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
-at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:372)
-at org.openqa.selenium.By$ById.findElement(By.java:188)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
 at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
 at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
 at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-at com.sun.proxy.$Proxy12.sendKeys(Unknown Source)
-at pages.SignUpPage.NewsupplierFunction(SignUpPage.java:126)
-at testCases.AllTestCases.SignUpUserTest(AllTestCases.java:120)
+at com.sun.proxy.$Proxy12.click(Unknown Source)
+at pages.ShoppingPage.ShoppingFunction(ShoppingPage.java:92)
+at testCases.AllTestCases.AddToCartTest(AllTestCases.java:90)
 at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -138,40 +90,16 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           </exception> <!-- org.openqa.selenium.NoSuchElementException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- SignUpUserTest -->
-        <test-method status="PASS" signature="TearDown()[pri:0, instance:testCases.AllTestCases@7a30d1e6]" name="TearDown" is-config="true" duration-ms="8082" started-at="2022-08-24T18:01:46 SGT" finished-at="2022-08-24T18:01:54 SGT">
+        </test-method> <!-- AddToCartTest -->
+        <test-method status="PASS" signature="TearDown()[pri:0, instance:testCases.AllTestCases@32eebfca]" name="TearDown" is-config="true" duration-ms="8331" started-at="2022-08-24T18:57:59 SGT" finished-at="2022-08-24T18:58:07 SGT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TearDown -->
-        <test-method status="PASS" signature="SetUp()[pri:0, instance:testCases.AllTestCases@7a30d1e6]" name="SetUp" is-config="true" duration-ms="2674" started-at="2022-08-24T18:01:54 SGT" finished-at="2022-08-24T18:01:57 SGT">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- SetUp -->
-        <test-method status="PASS" signature="UserLoginparameterizedTest(java.lang.String,java.lang.String)[pri:0, instance:testCases.AllTestCases@7a30d1e6]" name="UserLoginparameterizedTest" duration-ms="1902" started-at="2022-08-24T18:01:57 SGT" finished-at="2022-08-24T18:01:59 SGT">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[kn@gmail.com]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[12345]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- UserLoginparameterizedTest -->
-        <test-method status="PASS" signature="TearDown()[pri:0, instance:testCases.AllTestCases@7a30d1e6]" name="TearDown" is-config="true" duration-ms="8170" started-at="2022-08-24T18:01:59 SGT" finished-at="2022-08-24T18:02:07 SGT">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TearDown -->
-        <test-method status="PASS" signature="DataTearDown()[pri:0, instance:testCases.AllTestCases@7a30d1e6]" name="DataTearDown" is-config="true" duration-ms="316" started-at="2022-08-24T18:02:07 SGT" finished-at="2022-08-24T18:02:07 SGT">
+        <test-method status="PASS" signature="DataTearDown()[pri:0, instance:testCases.AllTestCases@32eebfca]" name="DataTearDown" is-config="true" duration-ms="408" started-at="2022-08-24T18:58:07 SGT" finished-at="2022-08-24T18:58:07 SGT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- DataTearDown -->
       </class> <!-- testCases.AllTestCases -->
-    </test> <!-- Test -->
-  </suite> <!-- Suite -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>

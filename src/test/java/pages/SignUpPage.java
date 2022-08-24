@@ -106,10 +106,10 @@ public class SignUpPage {
 		test.log(LogStatus.PASS, "Email", "Email Entered successfully");
 		
 		ContactNo.sendKeys(contactval);
-		test.log(LogStatus.PASS, "Email", "Email Entered successfully");
+		test.log(LogStatus.PASS, "ContactNo", "ContactNo Entered successfully");
 
 		Password.sendKeys(PasswordVal);
-		test.log(LogStatus.PASS, "ContactNo", "ContactNo Entered successfully");
+		test.log(LogStatus.PASS, "Password", "Password Entered successfully");
 
 		Confirmpassword.sendKeys(ConfirmPasswordval);
 		test.log(LogStatus.PASS, "ConfirmPassword", "ConfirmPassword Entered successfully");
