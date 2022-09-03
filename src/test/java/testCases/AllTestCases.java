@@ -1,5 +1,7 @@
 package testCases;
 
+import static org.testng.Assert.assertFalse;
+
 import java.util.concurrent.TimeUnit;
 
 import org.apache.xmlbeans.impl.xb.xsdschema.Public;
@@ -70,14 +72,14 @@ public class AllTestCases extends BaseClass {
 		LoginPage login = new LoginPage();
 		login.LoginFunction("vk@gmail.com", "admin");
 		ManageProductsPage editedproduct = new ManageProductsPage();
-		editedproduct.EditProductFunction("Cipla Company", "40");
+		editedproduct.EditProductFunction("new Company", "40");
 
 		report.endTest(test);
 
 	}
 	////////// TEST CASE 5 Add to cart Test //////////////////
 
-	@Test(enabled=false)
+	/*@Test(enabled=false)
 	public void AddToCartTest() throws InterruptedException {
 		test = report.startTest("AddToCartTest");
 
@@ -91,7 +93,7 @@ public class AllTestCases extends BaseClass {
 
 		report.endTest(test);
 
-	}
+	}*/
 
 	//////////// TEST CASE 6 Login Fail Excel data Test
 	//////////// ///////////////////////////////////////
@@ -118,7 +120,7 @@ public class AllTestCases extends BaseClass {
 		test = report.startTest("SignUpUserTest");
 
 		SignUpPage firstname = new SignUpPage();
-		firstname.NewsupplierFunction("Raja", "david", "RRRWWW@yahoo.com", "123456", "Daizy", "Daizy", "Upper Changi",
+		firstname.NewsupplierFunction("Raa33", "david", "Rqqq33W@yahoo.com", "123456", "Daizy", "Daizy", "Upper Changi",
 				"Punggol", "Tampines", "411041", "Tampines", "Singapore");
 		
 

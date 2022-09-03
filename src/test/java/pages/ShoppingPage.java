@@ -5,6 +5,7 @@ import java.util.concurrent.TimeUnit;
 import javax.lang.model.element.Element;
 
 import org.openqa.selenium.By;
+import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -24,24 +25,29 @@ import testCases.BaseClass;
 public class ShoppingPage {
 
 	WebDriver driver = BaseClass.driver;
+	JavascriptExecutor js = (JavascriptExecutor) BaseClass.driver;
 
 	ExtentTest test = BaseClass.test;
 
 	// =============== Web Elements =====================//
-
+	
 	@FindBy(xpath = "//a[@href='/medicare/show/1/product']")
 	WebElement ParacetamolView;
 
 	@FindBy(xpath = "//a[@href='/medicare/cart/add/1/product']")
 	WebElement Addtocart;
 
-	@FindBy(xpath = "//a[@href='/medicare/show/all/products']")
-	WebElement ContinueShopping;
+	//@FindBy(xpath = "//a[@href='/medicare/show/all/products']")
+	//WebElement ContinueShopping;
 
-	@FindBy(xpath = "//a[@href='/medicare/cart/add/5/product']")
-	WebElement AmoxicillinView;
+	//@FindBy(xpath = "//a[@href='/medicare/show/5/product']")
+	//WebElement AmoxicillinView;
+	
+	//@FindBy(xpath = "//a[@href='/medicare/cart/add/5/product']")
+	//WebElement Addtocart5;
+	
 
-	@FindBy(xpath = "//a[@href='/medicare/cart/validate']") // a[@href='/medicare/cart/validate']
+	@FindBy(xpath = "// a[@href='/medicare/cart/validate") // a[@href='/medicare/cart/validate']
 
 	WebElement Checkout;
 
@@ -73,6 +79,7 @@ public class ShoppingPage {
 	public void ShoppingFunction(String CardVal, String Expirymonth, String Expiryyear, String cvnumber)
 			throws InterruptedException {
 
+		
 		ParacetamolView.click();
 		test.log(LogStatus.PASS, "Click on ParacetamolView", "ParacetamolView clicked successfully");
 
@@ -80,19 +87,20 @@ public class ShoppingPage {
 		Addtocart.click();
 		test.log(LogStatus.PASS, "Click on Addtocart", "Addtocart clicked successfully");
 
+		//Thread.sleep(500);
+
+		//ContinueShopping.click();
+		//test.log(LogStatus.PASS, "Click on ContinueShopping", "ContinueShopping clicked successfully");
+
+		//AmoxicillinView.click();
+		//test.log(LogStatus.PASS, "Click on AmoxicillinView", "AmoxicillinView clicked successfully");
+
 		Thread.sleep(500);
-
-		ContinueShopping.click();
-		test.log(LogStatus.PASS, "Click on ContinueShopping", "ContinueShopping clicked successfully");
-
-		AmoxicillinView.click();
-		test.log(LogStatus.PASS, "Click on AmoxicillinView", "AmoxicillinView clicked successfully");
-
-		Thread.sleep(500);
-		Addtocart.click();
-		test.log(LogStatus.PASS, "Click on Addtocart", "Addtocart clicked successfully");
+		//Addtocart5.click();
+		//test.log(LogStatus.PASS, "Click on Addtocart", "Addtocart clicked successfully");
 
 		Thread.sleep(1000);
+		//js.executeScript("arguments[1].click();",Checkout );
 		Checkout.click();
 		test.log(LogStatus.PASS, "Click on Checkout", "Checkout clicked successfully");
 

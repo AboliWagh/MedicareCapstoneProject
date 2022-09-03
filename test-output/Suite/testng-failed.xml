@@ -10,8 +10,9 @@
           <include name="DataTearDown"/>
           <include name="DataSetUp"/>
           <include name="SetUp"/>
+          <include name="AddNewProductTest"/>
           <include name="TearDown"/>
-          <include name="SignUpUserTest"/>
+          <include name="EditProductTest"/>
         </methods>
       </class> <!-- testCases.AllTestCases -->
     </classes>

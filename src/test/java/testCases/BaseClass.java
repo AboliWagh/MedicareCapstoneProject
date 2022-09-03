@@ -9,6 +9,7 @@ import java.util.concurrent.TimeUnit;
 
 import org.apache.poi.xssf.usermodel.XSSFSheet;
 import org.apache.poi.xssf.usermodel.XSSFWorkbook;
+import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.Platform;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -59,6 +60,8 @@ public class BaseClass {
 		System.setProperty("webDriver.chrome.driver", "chromedriver.exe");
 
 		driver = new ChromeDriver();
+		JavascriptExecutor js = (JavascriptExecutor) driver;  
+		//js.executeScript(Script,Arguments);
 
 		driver.get("http://localhost:8082/medicare/");
 
