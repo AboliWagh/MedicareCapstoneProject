@@ -120,7 +120,7 @@ public class AllTestCases extends BaseClass {
 		test = report.startTest("SignUpUserTest");
 
 		SignUpPage firstname = new SignUpPage();
-		firstname.NewsupplierFunction("Raa33", "david", "Rqqq33W@yahoo.com", "123456", "Daizy", "Daizy", "Upper Changi",
+		firstname.NewsupplierFunction("Raa344", "david", "Rqqq344W@yahoo.com", "123456", "Daizy", "Daizy", "Upper Changi",
 				"Punggol", "Tampines", "411041", "Tampines", "Singapore");
 		
 
